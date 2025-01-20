@@ -1,10 +1,10 @@
 const leapYears = function (year) {
   if (year % 4 == 0 && year % 400 == 0) {
-    console.log("year " + year + " is a Lap");
+    return true;
   } else if (year % 100 == 0) {
-    console.log("year " + year + " is aLap");
+    return false;
   } else {
-    console.log("year " + year + " is not a Lap");
+    return true;
   }
 };
 //console.log();
